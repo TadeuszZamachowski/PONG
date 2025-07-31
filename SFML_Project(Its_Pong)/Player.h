@@ -21,6 +21,9 @@ public:
 	void moveUp();
 	void moveDown();
 	void updatePosition();
+	void incrementPoints() { points++; }
+    	void resetPoints() { points = 0; }
+    	int getPoints() const { return points; }
 	//~Player();
 };
 
